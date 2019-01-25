@@ -26,6 +26,7 @@ public class Practice03OnDrawLayout extends LinearLayout {
 
     {
         // 在这里插入 setWillNotDraw(false) 以启用完整的绘制流程
+        setWillNotDraw(false);      //viewGroup会忽略onDraw方法
     }
 
     @Override
